@@ -2,6 +2,14 @@
   "expo": {
     "name": "reactnative",
     "slug": "reactnative",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "scheme": "reactnative",
+    "platforms": ["android", "ios", "web"],
+    "android": {
+      "package": "com.reactnative"   // or com.anonymous.reactnative (see options above)
+    },
+    "ios": {
+      "bundleIdentifier": "com.jovy.reactnative"
+    }
   }
 }

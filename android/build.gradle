@@ -9,6 +9,9 @@ buildscript {
     classpath('com.android.tools.build:gradle')
     classpath('com.facebook.react:react-native-gradle-plugin')
     classpath('org.jetbrains.kotlin:kotlin-gradle-plugin')
+
+    // ✅ NEW: required for Firebase Google Services
+    classpath('com.google.gms:google-services:4.4.2')
   }
 }
 
