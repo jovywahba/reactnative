@@ -4,18 +4,41 @@ node_modules/
 .expo-shared/
 dist/
 web-build/
+.metro-cache/
+.cache/
 
 # Android
-android/app/build/
 android/.cxx/
+android/.gradle/
+android/app/build/
+android/local.properties
+android/app/google-services.json
+*.keystore
+*.jks
 
 # iOS
 ios/Pods/
 ios/build/
+ios/DerivedData/
+ios/GoogleService-Info.plist
+**/*.pbxuser
+**/*.mode1v3
+**/*.mode2v3
+**/*.perspectivev3
+*.xcworkspace/xcuserdata/
+*.xcuserstate
 
-# IDE
+# IDE / OS
 .vscode/
+.idea/
+*.iml
 .DS_Store
+Thumbs.db
 
-# Env
+# Env / Secrets
 .env
+.env.*
+*.env.local
+*.env.development
+*.env.production
+*.env.test
